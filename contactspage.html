@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,300&display=swap" rel="stylesheet">  
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@701,200,500,301,201,300,601,600,401,501,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Motion Studio</title>
+</head>
+<body>
+
+
+    <!-- HERO PAGE -->
+    <section class="info-section-1">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><h1 class="logo">MOT<span class="logo-span">I</span>ON</h1></a>
+            </div>
+            <div class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">OFFERS</a></li>
+                <li><a href="infopage.html">INFO</span></a></li>
+                <li><a href="contactspage.html"><span class="focus">CONTACTS</span></a></li>
+                <li><a href="downloadPage.html">DOWNLOAD</a></li>
+            </div>
+        </div>  
+        <h1 class="info-section-text">GET IN TOUCH WITH<br> <span class="info-section-1-span">MOTION STUDIO</span></h1>
+        <p class="info-section-subtext">We've got you covered!</p>
+        <div class="scrollDownButton">
+            <img id="downButton" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/circled-down-2.png" alt="circled-down-2"/>
+        </div>
+    </section>
+
+    <!-- CONTENT -->
+    <div class="contactsContent">
+        <div class="contactsText">
+            <h1>GET <span class="contactsText-span">IN TOUCH</span></h1>
+            <p>For any concerns, contact us for further support</p>
+        </div>
+        <div class="contactsForm">
+            <h1>CONTACT US</h1>
+            <div id="contactForm">
+                <form action="https://api.web3forms.com/submit" method="POST" class="formInputs">
+                    <input type="hidden" name="access_key" value="06746595-f256-4655-a135-fac7063e5ecc">
+                    <input type="text" name="name" id="name" class="input" placeholder="NAME" required>
+                    <input type="email" name="email" id="email" class="input" placeholder="EMAIL" required>
+                    <input type="text" name="message" id="message" class="input" placeholder="MESSAGE" required>
+                    <button id="formButton">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="info-section-4">
+        <div class="footer-section">
+            <div class="navigation">
+                <h1>Navigation</h1>
+                <div class="footer-nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#section-3">OFFERS</a></li>
+                    <li><a href="infopage.html">INFO</a></li>
+                    <li><a href="contactspage.html">CONTACTS</a></li>
+                    <li><a href="downloadPage.html">DOWNLOAD</a></li>
+                </div>
+            </div>
+            <div class="arrowUp">
+                <img width="48" height="48" src="https://img.icons8.com/pulsar-line/48/circled-chevron-up.png" alt="circled-chevron-up" id="arrowUpBtn" onclick="scrollToTop"/>
+            </div>
+            <div class="socials">
+                <h1>Socials</h1>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">officialmotionstudio.ph@gmail.com</a>
+                <div class="socials-icons">
+                    <a href="https://www.instagram.com/officialmotionstudio.ph/" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1" class="icons"/></a>
+                    <a href="https://www.facebook.com/profile.php?id=61557051177573" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/facebook-new.png" alt="facebook-new" class="icons"/></a>
+                    <a href="https://www.youtube.com/@motionstudioph" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/youtube-play.png" alt="youtube-play" class="icons"/></a>
+                    <img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/twitter-circled.png" alt="twitter-circled" class="icons"/>
+                </div>
+            </div>
+        </div>
+        <h1 style="font-family: 'Clash Display', sans-serif;" class="big-text">MOTION STUDIO</h1>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+    <script>
+
+
+        $(document).ready(function() {
+            $('#downButton').on('click', function() {
+                $('html, body').animate({
+                    scrollTop: $('.contactsContent').offset().top
+                }, 1000);
+            });
+        });
+
+
+    </script>
+
+
+</body>
