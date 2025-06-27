@@ -1,4 +1,4 @@
-# MotionStudio
+# Motion Studio
 
 **MotionStudio** is a simple landing page created to promote a fitness mobile and desktop application. Built entirely using **HTML**, **CSS**, and **JavaScript**, it demonstrates clean structure, smooth user experience, and modern design principles without relying on any external libraries or frameworks.
 
