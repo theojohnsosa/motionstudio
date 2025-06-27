@@ -1,31 +1,52 @@
 # MotionStudio
 
-MotionStudio is a modern web-based application built using React and Three.js that enables users to create, preview, and export animated 3D motion graphics right from their browser.
+**MotionStudio** is a simple landing page created to promote a fitness mobile and desktop application. Built entirely using **HTML**, **CSS**, and **JavaScript**, it demonstrates clean structure, smooth user experience, and modern design principles without relying on any external libraries or frameworks.
 
-## 🚀 Features
+## 🌟 Features
 
-- **Interactive 3D Editor** – Create and manipulate 3D meshes and animations in real time.
-- **Rich Material & Lighting Tools** – Customize appearance with textures, colors, and lighting.
-- **Timeline Animation Control** – Set keyframes, adjust timing, and preview animations seamlessly.
-- **Export Options** – Download your final animations as video clips or sequences of PNGs.
-- **Live Preview** – Watch your animations rendered dynamically as you work.
+- 📱 User-friendly interfaces
+- 🖱️ Smooth scroll-based navigation  
+- 🧭 Simple and intuitive UI  
+- 🎯 Call-to-action buttons for app promotion  
+- 💡 Lightweight and fast-loading
 
-## 📦 Demo & Screenshots
+## 🛠 Built With
 
-Add screenshot links or demo video URLs here to showcase your best features.
+- **HTML5** – Semantic structure and content  
+- **CSS3** – Layout, styling, and media queries  
+- **Vanilla JavaScript** – Navigation and interactivity
 
-## 🧱 Tech Stack
+## 🚀 Getting Started
 
-- **Framework**: React  
-- **3D Rendering**: Three.js  
-- **State Management**: (e.g., Redux, Zustand)  
-- **Build Tools**: Vite, Webpack, or Create React App  
-- **Styling**: CSS Modules or Styled Components  
-- **Bundling**: ESBuild / Rollup  
-- *(Add any additional technologies you used—TypeScript, Tailwind, etc.)*
+To run this project locally:
 
-## 🔧 Setup & Installation
-
-1. Clone the repo:  
+1. Clone the repository:
    ```bash
    git clone https://github.com/theojohnsosa/motionstudio.git
+
+2. Open the folder:
+
+   ```bash
+   cd motionstudio
+   ```
+
+3. Open `index.html` in your browser.
+
+No installation or dependencies required.
+
+## 📁 Project Structure
+
+```
+motionstudio/
+├── index.html
+├── styles/
+│   └── style.css
+├── images/
+```
+
+## 👨‍💻 Author
+
+Created by **[Theojohn Sosa](https://github.com/theojohnsosa)**
+feel free to fork, contribute, or reach out with suggestions!
+
+---
